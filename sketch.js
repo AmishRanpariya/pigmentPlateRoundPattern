@@ -235,12 +235,14 @@ if (params.has("c")) {
 } else {
 	COLORS = "000000ffffff000000ffffff";
 }
-let scl = 50;
+let scl = 135;
 let rows, cols;
 let a = [0, 90, 180, 270, 360];
 let tiles = [];
+
 function setup() {
-	let canvas = createCanvas(400, 400);
+	pixelDensity(1);
+	let canvas = createCanvas(1080, 1080);
 	cols = width / scl;
 	rows = height / scl;
 	angleMode(DEGREES);
