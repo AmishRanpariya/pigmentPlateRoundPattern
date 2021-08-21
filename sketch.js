@@ -235,7 +235,7 @@ if (params.has("c")) {
 } else {
 	COLORS = "000000ffffff000000ffffff";
 }
-let scl = 135;
+let scl = 108;
 let rows, cols;
 let a = [0, 90, 180, 270, 360];
 let tiles = [];
